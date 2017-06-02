@@ -57,13 +57,13 @@
 // tweak: { "category": "Site Navigation", "title": "Nav Button Text Color", "type": "color", "showOnlyWhenPresent": "body:not(.nav-button-style-outline).enable-nav-button", "target" : "body:not(.force-mobile-nav) #mainNavigation > div:not(.folder):last-child a, #mobileNavigation > div:not(.folder):last-child a" }
 @navButtonTextColor: #181818;
 
-// tweak: { "category": "Site Navigation", "title": "Nav Button Font", "type": "font", "showOnlyWhenPresent": ".enable-nav-button", "target" : "body:not(.force-mobile-nav) #mainNavigation > div:not(.folder):last-child a, #mobileNavigation > div:not(.folder):last-child a" }
-.nav-button-font {
+// tweak: { "category": "Site Navigation", "title": "Nav Button Font Audubon", "type": "font", "showOnlyWhenPresent": ".enable-nav-button", "target" : "body:not(.force-mobile-nav) #mainNavigation > div:not(.folder):last-child a, #mobileNavigation > div:not(.folder):last-child a" }
+.nav-button-font-aud {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   font-style: normal;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  letter-spacing: 0.33px;
+  text-transform: none;
   text-decoration: none;
 }
 
@@ -89,12 +89,12 @@
 // tweak: { "type" : "color", "title" : "Banner Heading Color", "category" : "Banner Section", "target" : ".banner-thumbnail-wrapper, .sqs-featured-posts-gallery, #promotedGalleryWrapper, .promoted-gallery-wrapper", "showOnlyWhenPresent" : ".desc-wrapper, .sqs-featured-posts-gallery, #promotedGalleryWrapper .sqs-gallery, .blog-item-wrapper, .promoted-gallery-wrapper .sqs-gallery" }
 @bannerHeadingColor: #FFF;
 
-// tweak: { "type" : "font", "title" : "Banner Text Font", "category" : "Banner Section", "target" : ".banner-thumbnail-wrapper, .sqs-featured-posts-gallery, #promotedGalleryWrapper, .promoted-gallery-wrapper", "showOnlyWhenPresent" : ".desc-wrapper, .sqs-featured-posts-gallery, #promotedGalleryWrapper .sqs-gallery, .blog-item-wrapper, .promoted-gallery-wrapper .sqs-gallery" }
-.banner-text-font {
+// tweak: { "type" : "font", "title" : "Banner Text Font Audubon", "category" : "Banner Section", "target" : ".banner-thumbnail-wrapper, .sqs-featured-posts-gallery, #promotedGalleryWrapper, .promoted-gallery-wrapper", "showOnlyWhenPresent" : ".desc-wrapper, .sqs-featured-posts-gallery, #promotedGalleryWrapper .sqs-gallery, .blog-item-wrapper, .promoted-gallery-wrapper .sqs-gallery" }
+.banner-text-font-aud {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 24px;
   letter-spacing: 0px;
   text-transform: none;
   line-height: 1.5em;
@@ -107,14 +107,14 @@
 
 // tweak: { "category": "Banner Section", "title": "Banner Button Corner Style", "type": "dropdown", "options": ["Square", "Rounded", "Pill"], "default": "Square", "showOnlyWhenPresent": ".has-description .desc-wrapper p:last-child > a, .sqs-gallery-block-slideshow .meta-description p:last-child > a", "target": ".desc-wrapper p:last-child > a, .meta-description p:last-child > a"  }
 
-// tweak: { "category": "Banner Section", "title": "Banner Button Color", "type": "color", "showOnlyWhenPresent": ".has-description .desc-wrapper p:last-child > a, .sqs-gallery-block-slideshow .meta-description p:last-child > a", "target": ".desc-wrapper p:last-child > a, .meta-description p:last-child > a" }
-@bannerButtonColor: #ededed;
+// tweak: { "category": "Banner Section", "title": "Banner Button Color Audubon", "type": "color", "showOnlyWhenPresent": ".has-description .desc-wrapper p:last-child > a, .sqs-gallery-block-slideshow .meta-description p:last-child > a", "target": ".desc-wrapper p:last-child > a, .meta-description p:last-child > a" }
+@bannerButtonColorAud: #F15936;
 
 // tweak: { "category": "Banner Section", "title": "Banner Button Text Color", "type": "color", "showOnlyWhenPresent": "body:not(.banner-button-style-outline) .has-description .desc-wrapper p:last-child > a, .sqs-gallery-block-slideshow .meta-description p:last-child > a", "target": ".desc-wrapper p:last-child > a, .meta-description p:last-child > a" }
 @bannerButtonTextColor: #181818;
 
-// tweak: { "category": "Banner Section", "title": "Banner Button Font", "type": "font", "showOnlyWhenPresent": ".has-description .desc-wrapper p:last-child > a, .sqs-gallery-block-slideshow .meta-description p:last-child > a", "target": ".desc-wrapper p:last-child > a, .meta-description p:last-child > a" }
-.banner-button-font {
+// tweak: { "category": "Banner Section", "title": "Banner Button Font Audubon", "type": "font", "showOnlyWhenPresent": ".has-description .desc-wrapper p:last-child > a, .sqs-gallery-block-slideshow .meta-description p:last-child > a", "target": ".desc-wrapper p:last-child > a, .meta-description p:last-child > a" }
+.banner-button-font-aud {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-style: normal;

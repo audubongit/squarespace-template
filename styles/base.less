@@ -857,7 +857,7 @@ li.filter {
         padding: 0;
       }
       .meta-description p {
-        .banner-text-font;
+        .banner-text-font-aud;
         color: @bannerTextColor;
         margin: 20px auto;
         width: @pageWidthNarrow !important;
@@ -873,7 +873,7 @@ li.filter {
       }
       .meta-description p:last-child > a {
         .border-box;
-        .banner-button-font;
+        .banner-button-font-aud;
         text-decoration: none;
         padding: 1em 1.75em;
         display: inline-block;
@@ -882,10 +882,10 @@ li.filter {
         color: @bannerButtonTextColor;
       }
       .meta-description p:last-child > a {
-        background-color: @bannerButtonColor;
+        background-color: @bannerButtonColorAud;
         .transition2(background-color 0.1s 0.0s ease-in-out, color 0.1s 0.0s ease-in-out);
         &:hover {
-          background-color: fade(@bannerButtonColor, 80%);
+          background-color: fade(@bannerButtonColorAud, 80%);
         }
       }
       .meta-description p:empty {
@@ -1013,7 +1013,7 @@ li.filter {
   text-rendering: optimizeLegibility;
 
   p {
-    .banner-text-font;
+    .banner-text-font-aud;
     color: @bannerTextColor;
     margin: 20px auto;
     -webkit-transform:translatez(0);
@@ -1033,11 +1033,11 @@ li.filter {
   }
   p:last-child > a {
     .border-box;
-    .banner-button-font;
+    .banner-button-font-aud;
     text-decoration: none;
     padding: 1em 1.75em;
-    background-color: @bannerButtonColor;
-    .font-smoothing(@bannerButtonColor);
+    background-color: @bannerButtonColorAud;
+    .font-smoothing(@bannerButtonColorAud);
     display: inline-block;
     line-height: 1em;
     margin:10px 0;
@@ -1045,7 +1045,7 @@ li.filter {
     border: none;
     .transition2(background-color 0.1s 0.0s ease-in-out, color 0.1s 0.0s ease-in-out);
     &:hover {
-      background-color: fade(@bannerButtonColor, 80%);
+      background-color: fade(@bannerButtonColorAud, 80%);
     }
   }
   p:last-child > a + a { margin-left: 1em; }
@@ -1060,11 +1060,11 @@ body:not(.collection-type-gallery).banner-button-style-outline {
   &.has-promoted-gallery .promoted-gallery-wrapper .sqs-gallery-block-slideshow .meta-description p:last-child > a {
     background-color: transparent;
     .font-smoothing(@overlayColor);
-    border: 2px solid @bannerButtonColor !important;
-    color: @bannerButtonColor;
+    border: 2px solid @bannerButtonColorAud !important;
+    color: @bannerButtonColorAud;
     &:hover {
-      background-color: @bannerButtonColor;
-      .banner-button-outline-hover-style-guarded-mixin(@bannerButtonColor);
+      background-color: @bannerButtonColorAud;
+      .banner-button-outline-hover-style-guarded-mixin(@bannerButtonColorAud);
     }
 
     /* ----- Guarded mixin to calculate what text color should be on hover ----- */
@@ -1077,11 +1077,11 @@ body:not(.collection-type-gallery).banner-button-style-raised {
   .desc-wrapper p:last-child > a,
   &.has-promoted-gallery #promotedGalleryWrapper .sqs-gallery-block-slideshow .meta-description p:last-child > a,
   &.has-promoted-gallery .promoted-gallery-wrapper .sqs-gallery-block-slideshow .meta-description p:last-child > a {
-    -webkit-box-shadow: 0px 0.2em 0px 0px darken(@bannerButtonColor,8%);
-    -moz-box-shadow: 0px 0.2em 0px 0px darken(@bannerButtonColor,8%);
-    box-shadow: 0px 0.2em 0px 0px darken(@bannerButtonColor,8%);
+    -webkit-box-shadow: 0px 0.2em 0px 0px darken(@bannerButtonColorAud,8%);
+    -moz-box-shadow: 0px 0.2em 0px 0px darken(@bannerButtonColorAud,8%);
+    box-shadow: 0px 0.2em 0px 0px darken(@bannerButtonColorAud,8%);
     &:hover {
-      background-color: lighten(@bannerButtonColor,3%);
+      background-color: lighten(@bannerButtonColorAud,3%);
     }
   }
 }
@@ -1635,7 +1635,7 @@ body:not(.collection-type-gallery).banner-button-corner-style-pill {
 .enable-nav-button #headerNav,
 .enable-nav-button #sidecarNav {
   nav > div:not(.folder):last-child a {
-    .nav-button-font;
+    .nav-button-font-aud;
     margin-left:1em;
     padding: 1em 1.5em !important;
     display: block;
