@@ -1,26 +1,26 @@
-#Audubon Chapter Template For Squarespace#
+# Audubon Chapter Template For Squarespace #
 
 A modified version of Squarespace's popular Bedford theme, styled with Audubon's brand colors & fonts, with a few design tweaks here and there. It should be a great starting point for your new chapter website, providing a foundation for further customizations and tweaks.
 
-##Installation Instructions##
+## Installation Instructions ##
 
 You'll need:
 * A Squarespace account ([register here](https://www.squarespace.com/); use code AUDUBON when making your first purchase to get 10% off)
 * An FTP client (The instructions below use Cyberduck, which is a free FTP client available for both Mac or Windows. [Download it here](https://cyberduck.io/?l=en).)
 * The Audubon Squarespace template itself, [downloaded here](https://github.com/audubongit/squarespace-template/archive/master.zip) and unzipped to a folder on your computer.
 
-###Prepare Your Squarespace Account##
+### Prepare Your Squarespace Account ##
 1. When you set up your Squarespace account, select the Bedford template to start with. You may also want to select "Community/Nonprofit" and "Business/Organization" to describe your site's content in the short questionnaire that follows.
 
 2. After you've finished setup and you see the gray config panel to the left, select "Settings". Then choose "Advanced". And finally, choose "Developer Mode" and click to enable Developer Mode. Click "Continue" on the message that appears.
 
-*Note: Putting your website in Developer Mode to load the Audubon template is the fastest way to get all of the styling tweaks applied to your new site. You will still be able to receive help from Squarespace with your theme in developer mode. Squarespace periodically upgrades its web publishing platform as a whole, and you will still receive these updates with your theme in developer mode. It also periodically makes small tweaks to its individual templates, such as the Bedford template on which Audubon's template is based. In developer mode you will not receive changes made to the base Bedford template in the future, but these changes are typically  relatively minor—the risk of missing out on something big here is low.
+*Note: Putting your website in Developer Mode to load the Audubon template is the fastest way to get all of the styling tweaks applied to your new site. You will still be able to receive help from Squarespace with your theme in developer mode. Squarespace periodically upgrades its web publishing platform as a whole, and you will still receive these updates with your theme in developer mode. It also periodically makes small tweaks to its individual templates, such as the Bedford template on which Audubon's template is based. In developer mode you will not receive changes made to the base Bedford template in the future, but these changes are typically  relatively minor—the risk of missing out on something big here is low.*
 
-If you would like to modify the Bedford template yourself to apply the Audubon styling tweaks, see "Making These Changes Yourself." This will take more work initially, but does not require you to turn on Developer Mode for your site.*
+*If you would like to modify the Bedford template yourself to apply the Audubon styling tweaks, see "Making These Changes Yourself." This will take more work initially, but does not require you to turn on Developer Mode for your site.*
 
 4. Take note of the "SFTP Hostname" and "SFTP Port" under "Connectivity Details"—you'll need to enter this information in the next step.
 
-###Transfer the Audubon template files to your Squarespace site using FTP###
+### Transfer the Audubon template files to your Squarespace site using FTP ###
 
 5. Launch Cyberduck, or the FTP application of your choice (the instructions below are specific to Cyberduck, but if you've used FTP before, it should be familiar.)
 
@@ -40,10 +40,34 @@ If you would like to modify the Bedford template yourself to apply the Audubon s
 
 13. Return to your web browser logged into Squarespace and reload the page. You should see a similar view, but now with fonts and colors that match Audubon's branding.
 
-##Performing These Tweaks Yourself##
+## Performing These Tweaks Yourself ##
 
-Squarespace's built-in Style Editor is very powerful. Using it, you can customize the look and feel of nearly every element of your website without knowing any code whatsoever. The Audubon template is essentially just a long list of Style Editor settings that get loaded automatically upon installation. But if you choose, you can apply the tweaks manually using the Style Editor in your Squarespace config panel.  
+Squarespace's built-in Style Editor is very powerful. Using it, you can customize the look and feel of nearly every element of your website without knowing any code whatsoever. The Audubon template is essentially just a long list of Style Editor settings that get loaded automatically upon installation—all of the styles found in the Audubon template can be configured with the Style Editor by hand. If you choose, you can apply the tweaks manually using the Style Editor in your Squarespace config panel.  
 
-To access the Style Editor, click Design in your main config bar, then click Style Editor. You'll see a long list of things to tweak. **Tip: With the Style Editor open, you can hover over an element of your website. If a blue box appears, click it, and the corresponding Style tweak will be displayed in the gray panel at left. This makes it easier to figure out which settings control what parts of your website.** 
+To access the Style Editor, click Design in your main config bar, then click Style Editor. You'll see a long list of things to tweak. **Tip: With the Style Editor open, you can hover over an element of your website. If a blue box appears, click it, and the corresponding Style tweak will be displayed in the gray panel at left. This makes it easier to figure out which settings control what parts of your website.**
 
-Unfortunately, there are too many specific tweaks the list them all by name, but in general we can provide a few guidelines.
+Unfortunately, there are too many specific tweaks the list them all by name, but in general we can provide a few guidelines:
+
+**Body Text Font**
+* Noto Serif (Google Fonts)
+* Weight: 400
+* Style: normal
+* Size: 18px
+* Letter spacing: 0px
+* Line Height: 1.5em
+
+**Headings/Everything Else Font**
+* Source Sans Pro (Google Fonts)
+* Weight: 300 (occasionally 400 for only the biggest headings)
+* Style: normal
+* Size: 40px (for Heading 1)
+* Letter spacing: 0px
+* Text Transform: None
+* Line Height: 1.2em
+
+**Colors**
+* Link color (Audubon blue): #0AA8E3
+* Button color (Audubon orange/red): #F15936
+* Accent color (Audubon green): #7BA701
+
+I recommend downloading and using the Audubon template if you can, as we've made sure that the many required style tweaks have been made consistently for a clean look. Plus, you can always tweak them further yourself after you install the Template.
