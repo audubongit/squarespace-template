@@ -85,7 +85,7 @@ We've set up a demo Squarespace site using the Audubon template. It includes sev
 
 [Access the demo site here](https://john-mahoney-jsc3.squarespace.com). *Note—click the "Guest Access" button and enter the code.*
 
-There isn't content here to be duplicated directly, but hopefully seeing these examples will get your own creative ideas percolating. You may also find the basic [Bedford template demo site](https://bedford-demo.squarespace.com/) useful—the Audubon template was based on Bedford and shares its functionality. 
+There isn't content here to be duplicated directly, but hopefully seeing these examples will get your own creative ideas percolating. You may also find the basic [Bedford template demo site](https://bedford-demo.squarespace.com/) useful—the Audubon template was based on Bedford and shares its functionality.
 
 # Where to Get Squarespace Help #
 
@@ -98,3 +98,7 @@ One of the most important factors driving our recommendation of Squarespace for 
 **[Contact Customer Care](https://support.squarespace.com/hc/en-us/requests/new)** Squarespace offers live support chat, as well as emailed questions. Start here to get personalized help.
 
 There are so many users of Squarespace that, the odds are, if you have a question, someone else has had the same one.
+
+# Tips and Tricks #
+
+* In many of the "Banner" or "Description" fields of the Bedford/Audubon themes, bold text appears as a much larger heading. This allows you to create a bold, brief header with a more detailed description of the page below in a smaller font. We use this technique on the main header of the demo site ("Protecting Birds and the Places They Need Since 1972" is made larger by simply making it **bold** in the editor box.)
