@@ -79,3 +79,22 @@ Unfortunately, there are too many specific tweaks the list them all by name, but
 * Accent color (Audubon green): #7BA701
 
 I recommend downloading and using the Audubon template if you can, as we've made sure that the many required style tweaks have been made consistently for a clean look (you'll need to change these font and color settings across dozens of different tweaks to cover all the elements of your site). Plus, you can always tweak them further yourself after you install the Template.
+
+# A Demo Site Using the Audubon Template
+We've set up a demo Squarespace site using the Audubon template. It includes several different types of content pages (blog posts, events, donation pages, etc) that should allow you to get a feel for the range of content types Squarespace offers.
+
+[Access the demo site here](https://john-mahoney-jsc3.squarespace.com). *Note—click the "Guest Access" button and enter the code.*
+
+There isn't content here to be duplicated directly, but hopefully seeing these examples will get your own creative ideas percolating. You may also find the basic [Bedford template demo site](https://bedford-demo.squarespace.com/) useful—the Audubon template was based on Bedford and shares its functionality. 
+
+# Where to Get Squarespace Help #
+
+One of the most important factors driving our recommendation of Squarespace for your chapter website was its rich support materials. Here we'll point you in the direction of the resources you can use to learn how to make a great Squarespace website, and to get help when you run into a problem.
+
+**[Getting Started](https://support.squarespace.com/hc/en-us/articles/206756327)**. Start here. This will not only help you answer questions like how to migrate from other platforms or purchase a domain. It will also show you where to get more detailed help when it's needed.
+
+**[Squarespace Knowledge Base](https://support.squarespace.com/hc/en-us/categories/200352188-Knowledge-Base)**. Tons of videos and articles covering both common and uncommon tasks. Note: the support pages often refer to how individual templates may treat some aspects of your content differently. The Audubon Template is based on the Bedford theme, so anything that applies to the Bedford template in the support pages should also apply to the Audubon theme.
+
+**[Contact Customer Care](https://support.squarespace.com/hc/en-us/requests/new)** Squarespace offers live support chat, as well as emailed questions. Start here to get personalized help.
+
+There are so many users of Squarespace that, the odds are, if you have a question, someone else has had the same one.
