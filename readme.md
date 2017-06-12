@@ -21,7 +21,8 @@ You'll need:
 4. Take note of the "SFTP Hostname" and "SFTP Port" under "Connectivity Details"—you'll need to enter this information in the next step.
 
 ![ftp connecting instructions](https://d2fbmjy3x0sdua.cloudfront.net/cdn/farfuture/ZGgf68awxpkjVFrS08kRkz8bgIc_Xw6DPkLT1FquuBQ/mtime:1497297513/sites/default/files/styles/bean_wysiwyg_full_width/public/2017-06-12_at_3.47_pm.png?itok=oy0fUVqN)
-*Note: Your address and port number may be different from what's pictured here.*
+
+*Step 4 illustrated. Note: Your address and port number may be different from what's pictured here.*
 
 ### Transfer the Audubon template files to your Squarespace site using FTP ###
 
@@ -31,21 +32,25 @@ You'll need:
 
 7. In the "Server" field, enter the contents of the "SFTP Hostname" field you noted in step 4 (it's most likely dev.squarespace.com). In the "Port" field, enter the "SFTP Port" number from step 4. In the "username" and "password" fields, enter your Squarespace username (your email address) and password. If you only see a field for "Username" in Cyberduck, just fill that one in—you'll be asked for your password later. With all the fields filled in, press "Connect"
 
+![connecting with Cyberduck](https://d2fbmjy3x0sdua.cloudfront.net/cdn/farfuture/Khn2TeVeAjsZoPk8tioxz7bRXXJqkVTrrj2RJ0lJF9Y/mtime:1497298184/sites/default/files/styles/bean_wysiwyg_full_width/public/2017-06-12_at_4.07_pm.png?itok=XqUriUU2)
+
+*Step 7 illustrated*
+
 8. You'll now be connected, and should see a folder with a name that looks like "your-name-xxxx" where "xxxx" is a random series of four letters and numbers. Double click this folder to open it.
 
 9. Find the folder where you downloaded the Audubon template (the file will be called audubon-template-master.zip). If you haven't yet, double click this ZIP file to expand it into a folder named audubon-template-master. Open this folder and you should see files and folders with similar names as your Cyberduck window.
 
 10. Start by dragging over the files "site.region" and "templates.conf" from the folder on your computer into the folder you see in the Cyberduck window. You'll be asked if you want to overwrite the existing files—choose yes, or continue, to overwrite the files.
 
-11. Now drag the "scripts" folder from your computer over to the Cyberduck window—it should copy automatically.
+11. Now, click and drag the "scripts" folder from your computer over to the Cyberduck window—it should copy automatically.
 
-12. Finally, open each of the remaining folders ("styles" "blocks" and "collections") in both the folder on your computer and in the Cyberduck window. Copy each folder's contents (most should have multiple files inside) from your computer to the corresponding folder in the Cyberduck window, again choosing to overwrite all files. Once you've copied the contents of all three, you're done!
+12. Finally, open each of the remaining folders ("styles" "blocks" and "collections") in both the folder on your computer and in the Cyberduck window. Copy each folder's entire contents (most should have multiple files inside) from your computer to the corresponding folder in the Cyberduck window, again choosing to overwrite all files. Once you've copied the contents of all three, you're done!
 
 13. Return to your web browser logged into Squarespace and reload the page. You should see a similar view, but now with fonts and colors that match Audubon's branding.
 
 ## Performing These Tweaks Yourself ##
 
-Squarespace's built-in Style Editor is very powerful. Using it, you can customize the look and feel of nearly every element of your website without knowing any code whatsoever. The Audubon template is essentially just a long list of Style Editor settings that get loaded automatically upon installation—all of the styles found in the Audubon template can be configured with the Style Editor by hand. If you choose, you can apply the tweaks manually using the Style Editor in your Squarespace config panel.  
+Squarespace's built-in Style Editor is very powerful. Using it, you can customize the look and feel of nearly every element of your website without knowing any code whatsoever. The Audubon template is essentially just a long list of Style Editor settings that get loaded automatically upon installation—all of the styles found in the Audubon template can be configured with the Style Editor by hand. If you choose, you can apply the tweaks manually using the Style Editor in your Squarespace config panel.
 
 To access the Style Editor, click Design in your main config bar, then click Style Editor. You'll see a long list of things to tweak. **Tip: With the Style Editor open, you can hover over an element of your website. If a blue box appears, click it, and the corresponding Style tweak will be displayed in the gray panel at left. This makes it easier to figure out which settings control what parts of your website.**
 
@@ -73,4 +78,4 @@ Unfortunately, there are too many specific tweaks the list them all by name, but
 * Button color (Audubon orange/red): #F15936
 * Accent color (Audubon green): #7BA701
 
-I recommend downloading and using the Audubon template if you can, as we've made sure that the many required style tweaks have been made consistently for a clean look. Plus, you can always tweak them further yourself after you install the Template.
+I recommend downloading and using the Audubon template if you can, as we've made sure that the many required style tweaks have been made consistently for a clean look (you'll need to change these font and color settings across dozens of different tweaks to cover all the elements of your site). Plus, you can always tweak them further yourself after you install the Template.
