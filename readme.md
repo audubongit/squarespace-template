@@ -20,6 +20,9 @@ You'll need:
 
 4. Take note of the "SFTP Hostname" and "SFTP Port" under "Connectivity Details"—you'll need to enter this information in the next step.
 
+![ftp connecting instructions](https://d2fbmjy3x0sdua.cloudfront.net/cdn/farfuture/ZGgf68awxpkjVFrS08kRkz8bgIc_Xw6DPkLT1FquuBQ/mtime:1497297513/sites/default/files/styles/bean_wysiwyg_full_width/public/2017-06-12_at_3.47_pm.png?itok=oy0fUVqN)
+*Note: Your address and port number may be different from what's pictured here.*
+
 ### Transfer the Audubon template files to your Squarespace site using FTP ###
 
 5. Launch Cyberduck, or the FTP application of your choice (the instructions below are specific to Cyberduck, but if you've used FTP before, it should be familiar.)
