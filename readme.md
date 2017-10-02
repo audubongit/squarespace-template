@@ -4,6 +4,8 @@ A modified version of Squarespace's popular Bedford theme, styled with Audubon's
 
 ## Installation Instructions ##
 
+Video walk-through of install process: https://vimeo.com/236494907
+
 You'll need:
 * A Squarespace account ([register here](https://www.squarespace.com/); use code AUDUBON when making your first purchase to get 10% off)
 * An FTP client (The instructions below use Cyberduck, which is a free FTP client available for both Mac or Windows. [Download it here](https://cyberduck.io/?l=en).)
@@ -32,6 +34,8 @@ You'll need:
 
 7. In the "Server" field, enter the contents of the "SFTP Hostname" field you noted in step 4 (it's most likely dev.squarespace.com). In the "Port" field, enter the "SFTP Port" number from step 4. In the "username" and "password" fields, enter your Squarespace username (your email address) and password. If you only see a field for "Username" in Cyberduck, just fill that one in—you'll be asked for your password later. With all the fields filled in, press "Connect"
 
+It may take several seconds to connect, and you may be asked to confirm the server's RSA fingerprint. You can say "OK" or "Continue" to any dialog boxes that appear.
+
 ![connecting with Cyberduck](https://d2fbmjy3x0sdua.cloudfront.net/cdn/farfuture/Khn2TeVeAjsZoPk8tioxz7bRXXJqkVTrrj2RJ0lJF9Y/mtime:1497298184/sites/default/files/styles/bean_wysiwyg_full_width/public/2017-06-12_at_4.07_pm.png?itok=XqUriUU2)
 
 *Step 7 illustrated*
@@ -40,13 +44,17 @@ You'll need:
 
 9. Find the folder where you downloaded the Audubon template (the file will be called audubon-template-master.zip). If you haven't yet, double click this ZIP file to expand it into a folder named audubon-template-master. Open this folder and you should see files and folders with similar names as your Cyberduck window.
 
-10. Start by dragging over the files "site.region" and "templates.conf" from the folder on your computer into the folder you see in the Cyberduck window. You'll be asked if you want to overwrite the existing files—choose yes, or continue, to overwrite the files.
+10. Select all the files and folders in the audubon-template-master folder on your computer, and drag them over into the Cyberduck window. You'll be asked if you want to overwrite all of the existing files—choose "Continue" to overwrite them. Cyberduck will do its thing, and once you see the "Upload complete" message, the files have been copied completely.
 
-11. Now, click and drag the "scripts" folder from your computer over to the Cyberduck window—it should copy automatically.
+11. Back in your web browser, refresh the page containing your Squarespace site. You should see the Audubon colors and fonts appear (the "Learn More" button in the header should turn orange). You're done!
 
-12. Finally, open each of the remaining folders ("styles" "blocks" and "collections") in both the folder on your computer and in the Cyberduck window. Copy each folder's entire contents (most should have multiple files inside) from your computer to the corresponding folder in the Cyberduck window, again choosing to overwrite all files. Once you've copied the contents of all three, you're done!
+In certain cases, you may receive an error message when trying to copy the files based on file permissions. If the copying action fails for any reason, follow steps 12 through 14 below to copy the files in smaller batches.
 
-13. Return to your web browser logged into Squarespace and reload the page. You should see a similar view, but now with fonts and colors that match Audubon's branding.
+12. **Only if necessary** Start by dragging over the files "site.region" and "templates.conf" from the folder on your computer into the folder you see in the Cyberduck window. You'll be asked if you want to overwrite the existing files—choose yes, or continue, to overwrite the files.
+
+13. **Only if necessary** Now, click and drag the "scripts" folder from your computer over to the Cyberduck window—it should copy automatically.
+
+14. **Only if necessary** Finally, open each of the remaining folders ("styles" "blocks" and "collections") in both the folder on your computer and in the Cyberduck window. Copy each folder's entire contents (most should have multiple files inside) from your computer to the corresponding folder in the Cyberduck window, again choosing to overwrite all files. Once you've copied the contents of all three, you're done!
 
 ## Performing These Tweaks Yourself ##
 
