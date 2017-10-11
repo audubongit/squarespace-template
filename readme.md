@@ -8,7 +8,7 @@ We're using Github to host this code (you've likely been redirected here from au
 
 ## Installation Instructions ##
 
-Video walk-through of install process: https://vimeo.com/236494907
+We made a video walk-through of the install process, which might be helpful: https://vimeo.com/236494907
 
 You'll need:
 * A Squarespace account ([register here](https://www.squarespace.com/); use code AUDUBON when making your first purchase to get 10% off)
