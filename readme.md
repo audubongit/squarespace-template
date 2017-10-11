@@ -2,9 +2,9 @@
 
 This is a modified version of Squarespace's popular [Bedford theme](https://bedford-demo.squarespace.com/), styled with Audubon's brand colors & fonts, with a few design tweaks here and there. It should be a great starting point for your new chapter website, providing a foundation for further customizations and tweaks.
 
-##Where am I?##
+## Where am I? ##
 
-We're using Github to host this code (you've likely been redirected here from audubon.org/chapter-template, which is a simple shortcut link). Github is a service that makes it easy to manage software projects in a way that allows for many people to contribute updates. The most up-to-date source code will always live here, which makes it easier to distribute to anyone who needs it. 
+We're using Github to host this code (you've likely been redirected here from audubon.org/chapter-template, which is a simple shortcut link). Github is a service that makes it easy to manage software projects in a way that allows for many people to contribute updates. The most up-to-date source code will always live here, which makes it easier to distribute to anyone who needs it.
 
 ## Installation Instructions ##
 
