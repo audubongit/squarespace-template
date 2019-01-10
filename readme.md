@@ -95,7 +95,7 @@ I recommend downloading and using the Audubon template if you can, as we've made
 # A Demo Site Using the Audubon Template
 We've set up a demo Squarespace site using the Audubon template. It includes several different types of content pages (blog posts, events, donation pages, etc) that should allow you to get a feel for the range of content types Squarespace offers.
 
-[Access the demo site here](https://john-mahoney-jsc3.squarespace.com). *Note—click the "Guest Access" button and enter the code.*
+[Access the demo site here](https://john-mahoney-jsc3.squarespace.com). *Note: the access password is `audubon`*
 
 There isn't content here to be duplicated directly, but hopefully seeing these examples will get your own creative ideas percolating. You may also find the basic [Bedford template demo site](https://bedford-demo.squarespace.com/) useful—the Audubon template was based on Bedford and shares its functionality.
 
