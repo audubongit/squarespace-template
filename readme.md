@@ -26,7 +26,7 @@ You'll need:
 
 4. Take note of the "SFTP Hostname" and "SFTP Port" under "Connectivity Details"—you'll need to enter this information in the next step.
 
-![ftp connecting instructions](https://d2fbmjy3x0sdua.cloudfront.net/cdn/farfuture/ZGgf68awxpkjVFrS08kRkz8bgIc_Xw6DPkLT1FquuBQ/mtime:1497297513/sites/default/files/styles/bean_wysiwyg_full_width/public/2017-06-12_at_3.47_pm.png?itok=oy0fUVqN)
+![ftp connecting instructions](https://www.audubon.org/sites/default/files/2017-06-12_at_3.47_pm.png)
 
 *Step 4 illustrated. Note: Your address and port number may be different from what's pictured here.*
 
@@ -40,7 +40,7 @@ You'll need:
 
 It may take several seconds to connect, and you may be asked to confirm the server's RSA fingerprint. You can say "OK" or "Continue" to any dialog boxes that appear.
 
-![connecting with Cyberduck](https://d2fbmjy3x0sdua.cloudfront.net/cdn/farfuture/Khn2TeVeAjsZoPk8tioxz7bRXXJqkVTrrj2RJ0lJF9Y/mtime:1497298184/sites/default/files/styles/bean_wysiwyg_full_width/public/2017-06-12_at_4.07_pm.png?itok=XqUriUU2)
+![connecting with Cyberduck](https://www.audubon.org/sites/default/files/2017-06-12_at_4.07_pm.png)
 
 *Step 7 illustrated*
 
